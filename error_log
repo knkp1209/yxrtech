@@ -1,0 +1,151 @@
+[29-Jul-2017 06:09:55 UTC] PHP Warning:  include_once(include/include.php): failed to open stream: No such file or directory in /home/yangwenh/public_html/index.php on line 3
+[29-Jul-2017 06:09:55 UTC] PHP Warning:  include_once(): Failed opening 'include/include.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/yangwenh/public_html/index.php on line 3
+[29-Jul-2017 06:09:55 UTC] PHP Fatal error:  Call to undefined function db_connect() in /home/yangwenh/public_html/index.php on line 5
+[29-Jul-2017 06:09:58 UTC] PHP Warning:  include_once(include/include.php): failed to open stream: No such file or directory in /home/yangwenh/public_html/index.php on line 3
+[29-Jul-2017 06:09:58 UTC] PHP Warning:  include_once(): Failed opening 'include/include.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/yangwenh/public_html/index.php on line 3
+[29-Jul-2017 06:09:58 UTC] PHP Fatal error:  Call to undefined function db_connect() in /home/yangwenh/public_html/index.php on line 5
+[29-Jul-2017 06:09:59 UTC] PHP Warning:  include_once(include/include.php): failed to open stream: No such file or directory in /home/yangwenh/public_html/index.php on line 3
+[29-Jul-2017 06:09:59 UTC] PHP Warning:  include_once(): Failed opening 'include/include.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/yangwenh/public_html/index.php on line 3
+[29-Jul-2017 06:09:59 UTC] PHP Fatal error:  Call to undefined function db_connect() in /home/yangwenh/public_html/index.php on line 5
+[29-Jul-2017 06:10:00 UTC] PHP Warning:  include_once(include/include.php): failed to open stream: No such file or directory in /home/yangwenh/public_html/index.php on line 3
+[29-Jul-2017 06:10:00 UTC] PHP Warning:  include_once(): Failed opening 'include/include.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/yangwenh/public_html/index.php on line 3
+[29-Jul-2017 06:10:00 UTC] PHP Fatal error:  Call to undefined function db_connect() in /home/yangwenh/public_html/index.php on line 5
+[29-Jul-2017 06:10:01 UTC] PHP Warning:  include_once(include/include.php): failed to open stream: No such file or directory in /home/yangwenh/public_html/index.php on line 3
+[29-Jul-2017 06:10:01 UTC] PHP Warning:  include_once(): Failed opening 'include/include.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/yangwenh/public_html/index.php on line 3
+[29-Jul-2017 06:10:01 UTC] PHP Fatal error:  Call to undefined function db_connect() in /home/yangwenh/public_html/index.php on line 5
+[01-Aug-2017 09:56:57 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:56:57 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:56:57 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:56:57 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 09:57:02 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:57:02 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:57:02 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:57:02 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 09:57:04 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:57:04 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:57:04 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:57:04 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 09:57:06 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:57:06 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:57:06 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/gold.php on line 6
+[01-Aug-2017 09:57:06 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/gold.php on line 7
+[01-Aug-2017 09:57:08 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:57:08 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:57:08 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:57:08 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 09:57:11 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:57:11 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:57:11 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/case.php on line 5
+[01-Aug-2017 09:57:11 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/case.php on line 6
+[01-Aug-2017 09:57:14 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:57:14 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:57:14 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:57:14 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 09:57:19 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:57:19 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:57:19 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:57:19 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 09:57:33 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:57:33 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:57:33 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:57:33 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 09:58:04 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:58:04 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:58:04 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:58:04 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 09:58:07 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:58:07 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:58:07 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/gold.php on line 6
+[01-Aug-2017 09:58:07 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/gold.php on line 7
+[01-Aug-2017 09:58:10 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:58:10 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:58:10 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:58:10 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 09:59:55 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:59:55 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:59:55 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:59:55 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 09:59:56 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:59:56 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:59:56 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:59:56 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 09:59:57 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:59:57 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:59:57 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:59:57 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 09:59:57 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:59:57 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:59:57 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:59:57 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 09:59:57 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:59:57 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:59:57 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:59:57 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 09:59:58 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 09:59:58 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 09:59:58 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 09:59:58 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 10:00:56 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:00:56 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:00:56 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/gold.php on line 6
+[01-Aug-2017 10:00:56 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/gold.php on line 7
+[01-Aug-2017 10:00:58 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:00:58 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:00:58 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 10:00:58 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 10:00:59 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:00:59 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:00:59 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/gold.php on line 6
+[01-Aug-2017 10:00:59 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/gold.php on line 7
+[01-Aug-2017 10:01:01 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:01:01 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:01:01 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 10:01:01 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 10:01:02 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:01:02 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:01:02 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/gold.php on line 6
+[01-Aug-2017 10:01:02 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/gold.php on line 7
+[01-Aug-2017 10:01:37 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:01:37 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:01:37 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/case.php on line 5
+[01-Aug-2017 10:01:37 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/case.php on line 6
+[01-Aug-2017 10:01:41 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:01:41 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:01:41 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/case.php on line 5
+[01-Aug-2017 10:01:41 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/case.php on line 6
+[01-Aug-2017 10:01:42 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:01:42 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:01:42 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/gold.php on line 6
+[01-Aug-2017 10:01:42 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/gold.php on line 7
+[01-Aug-2017 10:01:43 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:01:43 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:01:43 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/case.php on line 5
+[01-Aug-2017 10:01:43 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/case.php on line 6
+[01-Aug-2017 10:01:43 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:01:43 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:01:43 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/news.php on line 5
+[01-Aug-2017 10:01:43 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/news.php on line 6
+[01-Aug-2017 10:01:45 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:01:45 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:01:45 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 10:01:45 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
+[01-Aug-2017 10:01:46 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:01:46 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:01:46 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/gold.php on line 6
+[01-Aug-2017 10:01:46 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/gold.php on line 7
+[01-Aug-2017 10:01:47 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:01:47 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:01:47 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/case.php on line 5
+[01-Aug-2017 10:01:47 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/case.php on line 6
+[01-Aug-2017 10:01:47 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:01:47 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:01:47 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/news.php on line 5
+[01-Aug-2017 10:01:47 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/news.php on line 6
+[01-Aug-2017 10:01:48 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:01:48 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:01:48 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/case.php on line 5
+[01-Aug-2017 10:01:48 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/case.php on line 6
+[01-Aug-2017 10:01:49 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/yangwenh/public_html/include/db_fns.php on line 4
+[01-Aug-2017 10:01:49 UTC] PHP Warning:  mysqli::autocommit(): Couldn't fetch mysqli in /home/yangwenh/public_html/include/db_fns.php on line 8
+[01-Aug-2017 10:01:49 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 6
+[01-Aug-2017 10:01:49 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/yangwenh/public_html/index.php on line 7
