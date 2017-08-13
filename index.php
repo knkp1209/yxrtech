@@ -203,12 +203,12 @@ if ($num > 0) {
         }
         echo
             '<div class="col-lg-6 " style="width: 45%; margin-left: 2.5%; margin-top:2% " >
-            <h4><a href="#" target="_blank ">' . $result[$i]['title'] . '</a></h4><p>' . substr($result[$i]['content'], 0, 320) . '....</p>
+            <h4><a href="new.php?newsID='.$result[$i]['newsId'].'">' . $result[$i]['title'] . '</a></h4><p>' . substr($result[$i]['content'], 0, 320) . '....</p>
               </div>';
     }
     echo "</div>";
     echo '</div>
-    <div style="text-align: center; clear: both; padding-top: 60px; "><a style="padding-top: 20px " href="# " target="_blank ">Learn More</a></div>
+    <div style="text-align: center; clear: both; padding-top: 60px; "><a style="padding-top: 20px " href="news.php " target="_blank ">Learn More</a></div>
 </div>';
 }
 

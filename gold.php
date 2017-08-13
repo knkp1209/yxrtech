@@ -1,6 +1,5 @@
 <?php 
   include_once('include/include.php');
-aaaa
    $conn = db_connect();
    $conn->query("set character set utf8");//读库 
    $conn->query("set names utf8");//写库 
