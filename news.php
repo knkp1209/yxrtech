@@ -14,7 +14,7 @@ $conn->query("set names utf8");//写库
     </div>
 
 <?php
-$query = "select * from news order by newsdate desc";
+$query = "select * from news where catId = 1 order by newsdate desc";
 $result = @$conn->query($query);
 if (!$result) {
     exit;
