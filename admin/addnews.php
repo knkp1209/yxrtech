@@ -16,7 +16,7 @@ $content = null;
 if (isset($_POST['submitted'])) {
     if (isset($_POST['title']) && isset($_POST['content']) && isset($_POST['catId'])) {
         $title = $_POST['title'];
-        $content = $_POST['content'];
+        $content = nl2br($_POST['content']);
         $catId = $_POST['catId'];
 
     }
