@@ -1,4 +1,5 @@
 <?php
+ob_start();
 require_once('admin_include_fns.php');
 
 $conn = db_connect();
@@ -28,6 +29,7 @@ if($newsId){
     exit;
 }
 
+ob_end_flush();
 ?>
 
 <?php
