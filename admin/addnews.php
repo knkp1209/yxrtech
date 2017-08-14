@@ -1,4 +1,5 @@
 <?php
+ob_start();
 require_once('admin_include_fns.php');
 
 $conn = db_connect();
@@ -79,5 +80,6 @@ $result = db_result_to_array($result);
     </form>
 
 <?php
+ob_end_flush();
 $conn->close();
 ?>
