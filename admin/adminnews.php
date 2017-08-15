@@ -48,12 +48,12 @@ if ($num > 0) {
   
 
     for ($i = 0; $i < count($result); $i++) {
-          echo '<div style="display:flex; width:100%; margin-bottom:10px; height="170px">';
-        echo '<div style="flex:3"><img src="' . $imgnews . $result[$i]['image'] . '" alt=""  height="170px;" width="220px;" /></div><div style="flex:1; padding-top:70px;">
+          echo '<div style="display:flex; width:100%; margin-bottom:10px; height:100px; overflow-y:hidden" >';
+        echo '<div style="flex:1"><img src="' . $imgnews . $result[$i]['image'] . '" alt=""  height="100px;" width="150px;" /></div><div style="flex:0.5; margin-left: 20px; padding-top:40px;">
             
                 <p>' . substr($result[$i]['newsdate'], 5,5) . '<br />' . substr($result[$i]['newsdate'], 0, 4) . '</p></div><div style="flex:6">
             <p style="margin-top: 20px; font-size: 20px;"><b>' . $result[$i]['title'] . '</b></p>
-            <p>' . substr($result[$i]['content'], 0, 500) . '....</p></div><div style="flex:1; line-height:170px">
+            <p>' .$result[$i]['content'].'</p></div><div style="flex:1; line-height:100px">
             	<a href="deletenews.php?newsId='.$result[$i]['newsId'].'">删除</a></div>';
                  echo '</div>';
     }

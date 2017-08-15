@@ -11,7 +11,7 @@ require_once('admin_include_fns.php');
 
 	<head>
 		<meta charset="utf-8">
-		<title>后台管理模板</title>
+		<title>野行人网站管理</title>
 		<meta name="renderer" content="webkit">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

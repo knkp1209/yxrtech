@@ -56,14 +56,32 @@ if(!$result || $result->num_rows <= 0){
 $result = db_result_to_array($result);
 
 ?>
-    <form action="addnews.php" method="POST" enctype="multipart/form-data">
-        <div style="width: 80%;text-align: center; margin:0 auto;">
-            <label for="title">新闻标题</label><input type="text" id="title" name="title"/><br/>
-            <label for="newsimage">新闻图片</label><input type="file" id="newsimage" name="newsimage[]"/><br/>
-            <label for="content">新闻内容</label><textarea rows="9" cols="9" id="content" name="content"></textarea><br />
+<style>
+#addnews p {
+    text-align:  left;
+}
 
-            <label>新闻类别</label>
-            <select name="catId">
+form {
+    width: 100%;
+}
+</style>
+<form action="addnews.php" method="POST" id="addnews" enctype="multipart/form-data">
+    <div style="width: 80%;text-align: center; margin:0 auto;">
+        <p>
+            <label for="title">新闻标题</label>
+            <input type="text" id="title" name="title" />
+        </p>
+        <p>
+            <label for="newsimage">新闻图片</label>
+            <input type="file" id="newsimage" name="newsimage[]" />
+        </p>
+        <p>
+            <label for="content">新闻内容</label>
+            <textarea rows="20" cols="90" id="content" name="content"></textarea>
+        </p>
+        <p>
+            <label for="catId">新闻类别</label>
+            <select name="catId" id="catId">
 <?php
             for ($i = 0; $i < count($result); $i++) {
                 if($i == 0)
@@ -74,11 +92,13 @@ $result = db_result_to_array($result);
             
 ?>
             </select>
-            <input type="submit" value="添加新闻"/>
-            <input type="hidden" value="TRUE" name="submitted"/>
-        </div>
-    </form>
+        </p>
+        <input type="submit" value="添加新闻" />
+        <input type="hidden" value="TRUE" name="submitted" />
+    </div>
+</form>
 
+ 
 <?php
 ob_end_flush();
 $conn->close();
