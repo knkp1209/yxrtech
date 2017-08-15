@@ -179,7 +179,7 @@ case3;
 ?>
 
 <?php
-$query = "select * from news order by newsdate desc LIMIT 0,6";
+$query = "select * from news where catId = '1' order by newsdate desc LIMIT 0,6";
 $result = @$conn->query($query);
 if (!$result) {
     exit;

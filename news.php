@@ -32,9 +32,9 @@ if ($num > 0) {
             <div class="col-lg-1" style="margin-left:30px; margin-top: 50px;" >
                 <p>' . substr($result[$i]['newsdate'], 5,5) . '<br />' . substr($result[$i]['newsdate'], 0, 4) . '</p>
             </div>
-            <div class="col-lg-7" style="height:170px; overflow-y:hidden">
+            <div class="col-lg-7" style="height:140px; overflow-y:hidden">
             <p style="margin-top: 20px; font-size: 20px;"><a href="new.php?newsID='.$result[$i]['newsId']. '">' . $result[$i]['title'] . '</a></p>
-            <p>' . substr($result[$i]['content'], 0, 570) . '....</p>
+            <p>' . $result[$i]['content'] . '</p>
             </div>
         </div></a>';
     }
