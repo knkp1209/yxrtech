@@ -7,6 +7,26 @@
         <link rel="stylesheet" href="plugins/layui/css/layui.css" media="all" />
         <link rel="stylesheet" href="css/main.css" />
         <script src="../js/my.js"></script>
+        <style>
+#addcase p {
+    text-align:  left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 30%;
+}
+
+#addcase {
+    width: 100%;
+}
+h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+span{
+    color: red;
+}
+</style>
     </head>
 
     <body>
@@ -28,14 +48,14 @@
             <fieldset class="layui-elem-field">
                 <legend>添加案例</legend>
                 <div class="layui-field-box">
-<div style="width:40%; margin:0 auto; text-align:center"><h1>添加案例</h1>
+<div id="addcase" style="width:60%; margin:0 auto; text-align:center"><h1>添加案例</h1>
     <span>图片必须是宽度：263px 高度：443px</span>
     <form method="post"action="addcase.php" enctype="multipart/form-data" onsubmit="return getElements()">
 <div id="picInput">
-<label>小程序图片</label><input type="file" class="forminline"  name="imagefile[]" /><br />
-<label>小程序码图片</label><input  type="file" class="forminline" name="codeimagefile[]" /><br />
-<label>标题 </label><input class="forminline" type="text" name="title[]" /><br />
-<label>副标题</label><input class="forminline"  type="text" name="subtitle[]" /></div>
+<p><label>小程序图片：</label><input type="file" class="forminline"  name="imagefile[]" /></p>
+<p><label>二维码图片：</label><input  type="file" class="forminline" name="codeimagefile[]" /></p><p>
+<label>正标题：</label><input class="forminline" type="text" name="title[]" /></p><p>
+<label>副标题：</label><input class="forminline"  type="text" name="subtitle[]" /></p></div>
 <br /><br />
 <input id="addBtn" type="button" onclick="addcase()" value="继续添加案例" />
 <input type="submit" value="提交"  />

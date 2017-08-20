@@ -7,8 +7,25 @@
         <link rel="stylesheet" href="plugins/layui/css/layui.css" media="all" />
         <link rel="stylesheet" href="css/main.css" />
         <script src="../js/my.js"></script>
+        <style>
+        td{
+            vertical-align: middle; 
+            text-align: center;
+            padding-top: 2px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border:2px solid black;
+        }
+        .grey{
+            background: grey;
+        }
+        h1{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+        </style>
     </head>
-
     <body>
         <div class="admin-main">
 <!--            <blockquote class="layui-elem-quote">
@@ -47,31 +64,35 @@ if ($num > 0) {
     echo '<div style="width:40%; margin:0 auto; text-align:center"><h1>删除案例</h1></div>';
     echo '<form method="post"
         action="deletecase.php" enctype="multipart/form-data">';
-    echo '<div class="container-fluid cust" style="background: white">';
+    echo '<table border="3"  border-collapse="collapse" width="99%" align="center" >';
     $result = db_result_to_array($result);
     $i = true;
     for ($i = 0; $i < count($result); $i++) {
-        echo '<div class="col-lg-6">';
-        if ($i % 2 == 0)
-            echo '<div class="left">';
+        
+        if($i%2 == 1)
+            echo '<tr class="grey">';
         else
-            echo '<div class="right">';
+            echo '<tr>';
         echo <<<caselayout
-         <img src="$imgcase{$result[$i]['image']}" alt=" "/><img src="$imgcase{$result[$i]['codeimage']}" alt=" "/>
-         <div style="text-align: center">
-         <p><a>{$result[$i]['title']}</a></p>
-         <p class="line "></p>
-         <p><em>{$result[$i]['subtitle']}</em></p>
-         <p><input type="checkbox" name="case[]" value="{$result[$i]['caseId']}" />删除</p>
-         </div>
-     </div></div>
+        <td>
+         <img src="$imgcase{$result[$i]['image']}" alt=" " height="177" width="105"/>
+        </td><td>
+         <img src="$imgcase{$result[$i]['codeimage']}" alt=" " height="177" width="105"/>
+        </td><td width="100">
+         {$result[$i]['title']}
+        </td><td>
+         {$result[$i]['subtitle']}
+        </td><td  width="50">
+        <input type="checkbox" name="case[]" value="{$result[$i]['caseId']}" />删除</td>
+        </tr>
+     
 
 caselayout;
 
     }
-    echo '</div></div>' . "<div style=\"text-align:center;\" >全选/全不选<input type=\"checkbox\" name=\"all\" onclick=\"check_all(this,'case[]')\" /></div>
-      <br />
-      <div style=\"width:40%; margin:0 auto;\"><input type=\"submit\" value=\"删除\" /></div>
+    echo  "</table><div style=\"text-align:center; margin-top:10px;\" >全选/全不选<input type=\"checkbox\" name=\"all\" onclick=\"check_all(this,'case[]')\" />
+    <br /><br />
+    <input type=\"submit\" value=\"删除\" /></div>
     </form>";
 
 } else {

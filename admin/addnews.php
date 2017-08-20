@@ -61,7 +61,7 @@ $result = db_result_to_array($result);
     text-align:  left;
 }
 
-form {
+#addnews {
     width: 100%;
 }
 </style>

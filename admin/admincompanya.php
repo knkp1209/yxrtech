@@ -8,7 +8,25 @@
         <link rel="stylesheet" href="css/main.css" />
         <script src="../js/my.js"></script>
     </head>
+<style>
+#addcp p {
+    text-align:  left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
 
+#addcp {
+    width: 100%;
+}
+h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+span{
+    color: red;
+}
+</style>
     <body>
         <div class="admin-main">
 <!--            <blockquote class="layui-elem-quote">
@@ -31,10 +49,15 @@
 
     <div style="width:40%; margin:0 auto; text-align:center"><h1>添加公司</h1>
     <span>图片必须是宽度：135px 高度：45px</span>
-    <form method="post"action="addcp.php" enctype="multipart/form-data" onsubmit="return getElements()">
+    <form method="post" action="addcp.php" enctype="multipart/form-data" onsubmit="return getElements()" id="addcp">
 <div id="picInput">
-<label>公司LOGO</label><input type="file" class="forminline"  name="imagefile[]" /><br />
-<label>公司名称</label><input class="forminline"  type="text" name="companynames[]" /></div>
+<p>
+<label>公司图标：</label><input type="file" class="forminline"  name="imagefile[]" />
+</p>
+<p>
+<label>公司名称：</label><input class="forminline"  type="text" name="companynames[]" />
+</p>
+</div>
 <br /><br />
 <input id="addBtn" type="button" onclick="addcompany()" value="继续添加公司" />
 <input type="submit" value="提交"  />

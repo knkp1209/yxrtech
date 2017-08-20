@@ -7,6 +7,16 @@
         <link rel="stylesheet" href="plugins/layui/css/layui.css" media="all" />
         <link rel="stylesheet" href="css/main.css" />
         <script src="../js/my.js"></script>
+        <style type="text/css">
+            h1{
+                font-size: 1.5em;
+                font-weight: bold;
+                padding-bottom: 5px;
+            }
+            span{
+                color: red;
+            }
+        </style>
     </head>
 
     <body>
@@ -67,9 +77,9 @@ if ($num > 0) {
 caselayout;
 
     }
-    echo '</div></div>' . "<div style=\"text-align:center;\" >全选/全不选<input type=\"checkbox\" name=\"all\" onclick=\"check_all(this,'companys[]')\" /></div>
-      <br />
-      <div style=\"width:40%; margin:0 auto;\"><input type=\"submit\" value=\"删除\" /></div>
+    echo '</div></div>' . "<div style=\"text-align:center;\" >全选/全不选<input type=\"checkbox\" name=\"all\" onclick=\"check_all(this,'companys[]')\" />
+    <br /><br />
+    <input type=\"submit\" value=\"删除\" /></div>
     </form>";
 
 
